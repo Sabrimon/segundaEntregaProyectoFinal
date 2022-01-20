@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgLogo {
+    width: 15%;
+}
+
+header {
+    background-image: linear-gradient(rgb(133, 131, 236), rgb(183, 183, 233));
+}
+.nav-link{
+    color: black;
+}
+
+main {
+    background-color: #e7c6ee;
+}
+
+h1 {
+    color: rgb(250, 249, 249);
+    text-align: start;
+    font-family: 'Comforter', cursive;
+    text-transform: uppercase;
+}
+
+.main_div--imgjuana {
+    width: 400px;
+    height: 600px;
+}
+
+.main_div--imgNatura {
+    width: 32%;
+}
+
+.main_div--img {
+    width: 400px;
+    height: 450px;
+}
+
+/* footer */
+.footer {
+    background-image: linear-gradient(grey, white);
+}
+
+.footer__div--seguinos {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 75px;
+    margin: 5px 0px 15px 50px;
+}
+
+.footer__div--contactanos {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 75px;
+    margin: 15px 0px 15px 700px;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* media queries */
+@media (max-width: 768px) {
+    .imgLogo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 572px) {
+    .imgLogo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer__div--contactanos {
+        margin: 15px 0px 15px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+      display: none;
+    }
+}
+
+@media (max-width: 572px) {
+    .video {
+        display: none;
+    }
+}
